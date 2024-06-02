@@ -39,9 +39,11 @@ To run this project, follow these steps:
 [Download the APK](https://github.com/karthikarjun54/weather_app/raw/main/app-release.apk)
 
 ## Screenshot
-![Location Selection Screen](https://github.com/karthikarjun54/weather_app/raw/main/location-selection-screen.jpeg)
-![Progress Indicator Screen](https://github.com/karthikarjun54/weather_app/raw/main/progress-indicator-screen.jpeg)
-![Weather Display Screen](https://github.com/karthikarjun54/weather_app/raw/main/weather-display-screen.jpeg)
+<p align="center">
+  <img src="https://github.com/karthikarjun54/weather_app/raw/main/location-selection-screen.jpeg" width="200" />
+  <img src="https://github.com/karthikarjun54/weather_app/raw/main/progress-indicator-screen.jpeg" width="200" />
+  <img src="https://github.com/karthikarjun54/weather_app/raw/main/weather-display-screen.jpeg" width="200" />
+</p>
 
 ## Usage
 ### Main Entry Point
