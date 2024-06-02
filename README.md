@@ -4,6 +4,8 @@ This is a simple weather application built using Flutter. The app fetches weathe
 ## Table of Contents
 - [Dependencies](#dependencies)
 - [Getting Started](#getting-started)
+- [Download](#download)
+- [Screenshot](#screenshot)
 - [Usage](#usage)
 
 ## Dependencies
@@ -32,6 +34,14 @@ To run this project, follow these steps:
     ```bash
     flutter run
     ```
+
+## Download
+[Download the APK](https://github.com/karthikarjun54/weather_app/blob/main/app-release.apk)
+
+## Screenshot
+![Location Selection Screen](https://github.com/karthikarjun54/weather_app/blob/main/location-selection-screen.jpeg)
+![Progress Indicator Screen](https://github.com/karthikarjun54/weather_app/blob/main/progress-indicator-screen.jpeg)
+![Weather Display Screen](https://github.com/karthikarjun54/weather_app/blob/main/weather-display-screen.jpeg)
 
 ## Usage
 ### Main Entry Point
