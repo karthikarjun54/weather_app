@@ -12,8 +12,8 @@ This is a simple weather application built using Flutter. The app fetches weathe
 - [Dependencies](#dependencies)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [App Screenshot](#app-screenshot)
 - [Download APK](#download-apk)
-- [Screenshot](#screenshot)
 
 ## Dependencies
 This project relies on the following packages:
@@ -75,11 +75,11 @@ class MainApp extends StatelessWidget {
 }
 ```
 
-## Main Application Flow
+### Main Application Flow
 1. **Location Selection Screen:** The user is presented with a screen to enter the city name.
 2. **Weather Display Screen:** Upon entering the city name and submitting, the app fetches the weather data for the specified city and displays it.
     
-## Location Selection Screen
+### Location Selection Screen
 The `LocationSelectionScreen` is where the user can input the city name to fetch the weather data.
 ```dart
 import 'dart:ui';
@@ -254,7 +254,7 @@ class _LocationSelectionScreenState extends State<LocationSelectionScreen> {
 }
 ```
 
-## Weather Display Screen
+### Weather Display Screen
 This widget displays detailed weather information such as area name, temperature, weather conditions, min temperature, max temperature, humidity, and wind speed.
 ```dart
 import 'dart:ui';
@@ -498,7 +498,7 @@ class _WeatherDisplayScreenState extends State<WeatherDisplayScreen> {
 }
 ```
 
-## Screenshot
+## App Screenshot
 <p align="left">
   <img src="https://github.com/karthikarjun54/weather_app/raw/main/location-selection-screen.jpeg" width="200" />
   <img src="https://github.com/karthikarjun54/weather_app/raw/main/progress-indicator-screen.jpeg" width="200" />
@@ -506,4 +506,4 @@ class _WeatherDisplayScreenState extends State<WeatherDisplayScreen> {
 </p>
 
 ## Download APK
-[Download the APK](https://github.com/karthikarjun54/weather_app/raw/main/app-release.apk)
+[Download](https://github.com/karthikarjun54/weather_app/raw/main/app-release.apk)
