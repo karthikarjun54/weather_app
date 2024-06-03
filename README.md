@@ -498,12 +498,12 @@ class _WeatherDisplayScreenState extends State<WeatherDisplayScreen> {
 }
 ```
 
-## Download APK
-[Download the APK](https://github.com/karthikarjun54/weather_app/raw/main/app-release.apk)
-
 ## Screenshot
 <p align="left">
   <img src="https://github.com/karthikarjun54/weather_app/raw/main/location-selection-screen.jpeg" width="200" />
   <img src="https://github.com/karthikarjun54/weather_app/raw/main/progress-indicator-screen.jpeg" width="200" />
   <img src="https://github.com/karthikarjun54/weather_app/raw/main/weather-display-screen.jpeg" width="200" />
 </p>
+
+## Download APK
+[Download the APK](https://github.com/karthikarjun54/weather_app/raw/main/app-release.apk)
