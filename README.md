@@ -1,12 +1,19 @@
 # Build a Weather App
 This is a simple weather application built using Flutter. The app fetches weather data and displays it to the user. It uses the [weather](https://pub.dev/packages/weather) package to get weather data and the [flutter_bloc](https://pub.dev/packages/flutter_bloc) package to manage the state of the application.
 
+## Features
+- **Real-time Weather Data:** Fetches and displays current weather information including area name, temperature, weather conditions, min temperature, max temperature, humidity, and wind speed based on the city name provided by the user.
+- **Dynamic Icons:** Displays appropriate weather icons based on the current weather conditions.
+- **Responsive Design:** Adjusts layout based on screen orientation for optimal viewing on both portrait and landscape modes.
+- **State Management:** Utilizes `flutter_bloc` for robust and maintainable state management
+- **City-based Search:** Allows users to search for weather information by entering a city name.
+
 ## Table of Contents
 - [Dependencies](#dependencies)
 - [Getting Started](#getting-started)
-- [Download](#download)
-- [Screenshot](#screenshot)
 - [Usage](#usage)
+- [Download APK](#download-apk)
+- [Screenshot](#screenshot)
 
 ## Dependencies
 This project relies on the following packages:
@@ -34,16 +41,6 @@ To run this project, follow these steps:
     ```bash
     flutter run
     ```
-
-## Download
-[Download the APK](https://github.com/karthikarjun54/weather_app/raw/main/app-release.apk)
-
-## Screenshot
-<p align="left">
-  <img src="https://github.com/karthikarjun54/weather_app/raw/main/location-selection-screen.jpeg" width="200" />
-  <img src="https://github.com/karthikarjun54/weather_app/raw/main/progress-indicator-screen.jpeg" width="200" />
-  <img src="https://github.com/karthikarjun54/weather_app/raw/main/weather-display-screen.jpeg" width="200" />
-</p>
 
 ## Usage
 ### Main Entry Point
@@ -78,6 +75,10 @@ class MainApp extends StatelessWidget {
 }
 ```
 
+## Main Application Flow
+1. **Location Selection Screen:** The user is presented with a screen to enter the city name.
+2. **Weather Display Screen:** Upon entering the city name and submitting, the app fetches the weather data for the specified city and displays it.
+    
 ## Location Selection Screen
 The `LocationSelectionScreen` is where the user can input the city name to fetch the weather data.
 ```dart
@@ -254,7 +255,7 @@ class _LocationSelectionScreenState extends State<LocationSelectionScreen> {
 ```
 
 ## Weather Display Screen
-This widget displays detailed weather information such as temperature, weather conditions, humidity, and wind speed.
+This widget displays detailed weather information such as area name, temperature, weather conditions, min temperature, max temperature, humidity, and wind speed.
 ```dart
 import 'dart:ui';
 import 'package:flutter/material.dart';
@@ -496,3 +497,13 @@ class _WeatherDisplayScreenState extends State<WeatherDisplayScreen> {
   }
 }
 ```
+
+## Download APK
+[Download the APK](https://github.com/karthikarjun54/weather_app/raw/main/app-release.apk)
+
+## Screenshot
+<p align="left">
+  <img src="https://github.com/karthikarjun54/weather_app/raw/main/location-selection-screen.jpeg" width="200" />
+  <img src="https://github.com/karthikarjun54/weather_app/raw/main/progress-indicator-screen.jpeg" width="200" />
+  <img src="https://github.com/karthikarjun54/weather_app/raw/main/weather-display-screen.jpeg" width="200" />
+</p>
